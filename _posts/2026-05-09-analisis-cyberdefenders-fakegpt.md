@@ -1,5 +1,5 @@
 ---
-title: "Write-up: FakeGPT in CyberDefenders"
+title: "Write-up: XMLRat in CyberDefenders"
 date: 2026-05-09 18:00:00 +0200
 categories: [Writeups, BlueTeam]
 tags: [forensics, malware, dfir]
