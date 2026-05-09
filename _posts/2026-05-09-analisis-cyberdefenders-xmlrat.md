@@ -4,7 +4,7 @@ date: 2026-05-09 18:00:00 +0200
 categories: [Writeups, BlueTeam]
 tags: [forensics, malware, dfir]
 image:
-  path: /assets/img/portada-fakegpt.png # Opcional: una imagen de portada
+  path: /assets/img/rat.png # Opcional: una imagen de portada
 ---
 
 ## Escenario
