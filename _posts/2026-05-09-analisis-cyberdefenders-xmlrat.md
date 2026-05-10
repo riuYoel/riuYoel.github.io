@@ -7,7 +7,7 @@ image:
   path: /assets/img/rat.png # Opcional: una imagen de portada
 ---
 
-[Lab](https://cyberdefenders.org/blueteam-ctf-challenges/xlmrat/)
+[XLMRat Lab](https://cyberdefenders.org/blueteam-ctf-challenges/xlmrat/)
 
 ## Scenario
 So, we have an machine that has been compromised and flagged due to suspicious network traffic. In order to solve this lab we need to analyze the PCAP file and identify various malicious files, lets begin :)
