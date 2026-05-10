@@ -7,6 +7,8 @@ image:
   path: /assets/img/ramnit.png # Opcional: una imagen de portada
 ---
 
+[Lab](https://cyberdefenders.org/blueteam-ctf-challenges/ramnit/)
+
 ## Scenario
 So, our IDS has alerted suspicious behavior on a workstation, pointing to a likely malware intrusion. We got a memory dumb for our analysis so lets being :)
 ## Tools used
