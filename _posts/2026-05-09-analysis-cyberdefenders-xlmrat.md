@@ -1,16 +1,16 @@
 ---
-title: "Write-up: XMLRat in CyberDefenders"
+title: "Write-up: XMLRat"
 date: 2026-05-09 18:00:00 +0200
 categories: [Writeups, BlueTeam]
-tags: [forensics, malware, dfir]
+tags: [network, malware, pcap]
 image:
-  path: /assets/img/xlmrat.png # Opcional: una imagen de portada
+  path: /assets/img/xlmrat.png
 ---
 
 [XLMRat Lab](https://cyberdefenders.org/blueteam-ctf-challenges/xlmrat/)
 
 ## Scenario
-So, we have an machine that has been compromised and flagged due to suspicious network traffic. In order to solve this lab we need to analyze the PCAP file and identify various malicious files, lets begin :)
+So, we have an machine that has been compromised and flagged due to suspicious network traffic. In order to solve this lab we need to analyze the PCAP file and identify various malicious files, lets begin.
 
 ## Tools used
 - [ ] Wireshark
@@ -18,17 +18,17 @@ So, we have an machine that has been compromised and flagged due to suspicious n
 - [ ] CyberChef
 - [ ] VirusTotal
 
-## Solution (Step by step)
+## Solution
 
 ### Q1: The attacker successfully executed a command to download the first stage of the malware. What is the URL from which the first malware stage was installed?
 
-For practices i always check the type of file before anything
+For practices, lets check the type of file before starting
 ![Result](/assets/img/p1.png)
 
-Once checked, now we proceed and open it on Wireshark
+Once checked, now lets proceed and open it on Wireshark
 ![Wireshark](/assets/img/p2.png)
 
-As soon as we open it, we notice the first answer, we can get it also by typing "http" on wireshark
+As soon as we open it we notice the first answer, we can get it also by typing "http" on Wireshark
 
 ![Source](/assets/img/p3.png)
 
@@ -44,7 +44,7 @@ For this one, just place the suspicious IP on [AbuseIPDB](https://www.abuseipdb.
 
 ### Q3: By analyzing the malicious scripts, two payloads were identified: a loader and a secondary executable. What is the SHA256 of the malware executable?
 
-Im going to make this one as clear as possible because here a lot of people get stuck, so we first go to wireshark, back to our /mdm.jpg there, now we right click it.
+Im going to make this one as clear as possible because here a lot of people get stuck, so we first go to Wireshark, back to our jpg file and now we right click it.
 
 ![Image](/assets/img/p5.png) 
 
@@ -60,7 +60,7 @@ When you find this other line means the first one ended, now copy the first one
 
 ![Image](/assets/img/p8.png)
 
-Once we have selected, now just copy and paste it on [CyberChef](https://gchq.github.io/CyberChef/) 
+Once we selected it, now just copy and paste it on [CyberChef](https://gchq.github.io/CyberChef/) 
 
 Now select From Hex to MD5, Remember to delete the "$hexString_bbb ="
 
@@ -86,9 +86,7 @@ Just go to 'Details' and scroll down `2023-10-30 15:08`
 
 ### Q6: Which LOLBin is leveraged for stealthy process execution in this script? Provide the full path.
 
-To answer this question, we need to go back to Wireshark and same as beofre: Right Click > Follow > TCP Stream
-
-Now scroll down
+To answer this question, we need to go back to Wireshark and same as beofre: Right Click > Follow > TCP Stream, once there Scroll Down
 
 ![Image](/assets/img/p12.png)
 
@@ -107,4 +105,4 @@ If you saw on the early image there was 2 of them, we scroll down a bit more for
 
 There is the last one, the answer is: `Conted.vbs,Conted.ps1,Conted.bat`
 
-# I hope this was helpful :)
+# And thats it, XLMRat Completed!

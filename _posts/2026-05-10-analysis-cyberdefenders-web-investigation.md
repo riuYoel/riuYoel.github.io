@@ -1,10 +1,10 @@
 ---
-title: "Write-up: Web Investigation in CyberDefenders"
+title: "Write-up: Web Investigation"
 date: 2026-05-10 15:00:00 +0200
 categories: [Writeups, BlueTeam]
 tags: [forensics, network, web]
 image:
-  path: /assets/img/web-investigation.png # Opcional: una imagen de portada
+  path: /assets/img/web-investigation.png
 ---
 
 [Web Investigation Lab](https://cyberdefenders.org/blueteam-ctf-challenges/web-investigation/)
@@ -108,4 +108,4 @@ And we find 4 requests, just go one by one and check the 'HTML from URL encoded'
 
 If you use `http.request.uri contains ".php"` and scroll down until you find admin/uploads/`NVri2vhp.php` there will be the answer
 
-# Feel free to check my other Write-ups :)
+# And thats it, Web Investigation Completed

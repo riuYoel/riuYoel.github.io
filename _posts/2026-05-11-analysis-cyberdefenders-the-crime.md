@@ -1,10 +1,10 @@
 ---
-title: "Write-up: The Crime in CyberDefenders"
+title: "Write-up: The Crime"
 date: 2026-05-11 14:00:00 +0200
 categories: [Writeups, BlueTeam]
 tags: [forensics, aleapp, endpoint]
 image:
-  path: /assets/img/the-crime.png # Opcional: una imagen de portada
+  path: /assets/img/the-crime.png
 ---
 
 [The Crime Lab](https://cyberdefenders.org/blueteam-ctf-challenges/the-crime/)
@@ -19,7 +19,7 @@ In this scenario we are investigating a murder case, we obtained the victims pho
 
 ### Q1: Based on the accounts of the witnesses and individuals close to the victim, it has become clear that the victim was interested in trading. This has led him to invest all of his money and acquire debt. Can you identify the SHA256 of the trading application the victim primarily used on his phone?
 
-So first of all we open ALEAPP on our terminal after extracting the folder with the mobile information
+So first of all we open `ALEAPP` on our terminal after extracting the folder with the mobile information
 
 ![Result](/assets/img/p42.png)
 
@@ -81,4 +81,4 @@ For this one go to 'Discord chats' and scroll down, on 'rob1ns0n' chat u will se
 
 `The Mob Museum`
 
-# Hope this was helpful :)
+# And thats it, The Crime Completed

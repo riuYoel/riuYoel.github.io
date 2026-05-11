@@ -1,10 +1,10 @@
 ---
-title: "Write-up: PsExec Hunt in CyberDefenders"
+title: "Write-up: PsExec Hunt"
 date: 2026-05-10 18:50:00 +0200
 categories: [Writeups, BlueTeam]
 tags: [lateral, endpoint, smb]
 image:
-  path: /assets/img/psexec.png # Opcional: una imagen de portada
+  path: /assets/img/psexec.png
 ---
 
 [PsExec Hunt Lab](https://cyberdefenders.org/blueteam-ctf-challenges/psexec-hunt/)
@@ -59,7 +59,7 @@ Same as with the other 2, the answer is right there, he used `ADMIN$`
 
 ### Q6: We must identify the network share used to communicate between the two machines. Which network share did PsExec use for communication?
 
-Again there :sob:, he used `IPC$`
+Again there we have the answer below, he used `IPC$`
 
 ![Image](/assets/img/p40.png)
 
@@ -71,4 +71,4 @@ If you filter 'SMB' u have the answer, not once, twice, thrice but four times, t
 
 `MARKETING-PC`
 
-# Mess around and see my other Write-ups, no pressure :)
+# And thats it, PsExec Hunt Completed
