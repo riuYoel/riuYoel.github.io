@@ -36,4 +36,4 @@ Mi objetivo actual es masterizar **Splunk al 1000%**. Creo firmemente que el dom
 ---
 **El factor humano:** Soy un firme creyente de que el esfuerzo constante vence al talento natural. Cuando no estoy analizando PCAPs o refinando una query de Splunk, probablemente me encuentres optimizando mis `dotfiles` o estudiando nuevas tácticas de post-explotación para saber cómo detectarlas mejor.
 
-📩 *¿Buscas un analista con mentalidad crítica y hambre de aprender? yoeltuccii@gmail.com*
+📩 *¿Buscas un analista con mentalidad crítica y hambre de aprender? Hablemos!*
