@@ -15,7 +15,6 @@ The SOC team has discovered suspicious activity on a web server within the compa
 ## Tools used
 
 - [ ] Wireshark
-- [ ] NetworkMiner
 - [ ] AbuseIPDB
 
 ## Solution
