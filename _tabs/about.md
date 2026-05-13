@@ -16,7 +16,7 @@ Soy un analista de seguridad en formación constante. Mi entorno de trabajo actu
 Entiendo que el **Active Directory** es el corazón de la infraestructura empresarial y, por tanto, el objetivo principal de los atacantes. Mi transición a Linux no es un abandono, sino una expansión para tener herramientas más potentes con las que defender entornos Windows.
 
 ### 🎯 Mi Misión: Splunk Mastery
-Mi objetivo actual es aprender **Splunk%**. Creo firmemente que el dominio de **SPL (Search Processing Language)** es el superpoder que diferencia a un Analista SOC promedio de uno excepcional. Estoy volcando todo mi esfuerzo en convertir logs complejos (Event IDs de Windows, Sysmon, Powershell) en dashboards claros y alertas de detección precisas.
+Mi objetivo actual es aprender **Splunk**. Creo firmemente que el dominio de **SPL (Search Processing Language)** es el superpoder que diferencia a un Analista SOC promedio de uno excepcional. Estoy volcando todo mi esfuerzo en convertir logs complejos (Event IDs de Windows, Sysmon, Powershell) en dashboards claros y alertas de detección precisas.
 
 ### 🛠️ Toolstack & Skills
 *   **OS:** Arch Linux (Daily driver) & Windows (10+ años de experiencia profunda).
