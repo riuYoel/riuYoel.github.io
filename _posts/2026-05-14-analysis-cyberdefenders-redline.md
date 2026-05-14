@@ -71,7 +71,7 @@ Just paste the IP on [VirusTotal](https://www.virustotal.com/gui/ip-address/77.9
 
 Lets do a filescan with volatily and grep oneetx.exe
 
-`python vol.py -f ~/[YD]/MemoryDump.mem windows.filescan | grep "oneetx.exe"`
+`python vol.py -f ~/[YourDirectory]/MemoryDump.mem windows.filescan | grep "oneetx.exe"`
 
 ![Image](/assets/img/p74.png)
 
