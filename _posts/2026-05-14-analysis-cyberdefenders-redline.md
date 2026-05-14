@@ -37,7 +37,7 @@ We can see it right below, there its child live
 
 ### Q3: What is the memory protection applied to the suspicious process memory region?
 
-On this one you can execute the following command ` python vol.py -f ~/[YourDirectory]/MemoryDump.mem windows.vadinfo --pid 5896` since we got the pid earlier now we can check its specific VAD (Virtual Address Descriptor) info
+On this one you can execute the following command `python vol.py -f ~/[YourDirectory]/MemoryDump.mem windows.vadinfo --pid 5896` since we got the pid earlier now we can check its specific VAD (Virtual Address Descriptor) info
 
 ![Image](/assets/img/p70.png)
 
