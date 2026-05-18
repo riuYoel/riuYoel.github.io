@@ -5,10 +5,8 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-## $ whoami
-**Yoel** | Blue Teamer & Arch Linux Enthusiast 🐧
 
-> "Si ocurre en la red, aparecera en mis Logs."
+**Yoel Tucci** | Blue Teamer & Arch Linux Enthusiast 🐧
 
 ### 👤 Quién soy
 Soy un analista de seguridad en formación constante. Mi entorno de trabajo actual es **Arch Linux**, donde gestiono mis flujos de investigación y automatización. Sin embargo, mi base técnica se cimenta en **más de 10 años como usuario de Windows**. 
@@ -26,14 +24,15 @@ Mi objetivo actual es aprender **Splunk**. Creo firmemente que el dominio de **S
 
 ### 🌐 Idiomas
 *   **Español:** Nativo.
-*   **Inglés:** Nivel **B1/B2**. Capaz de manejar documentación técnica y redactar informes. Sigo trabajando a diario para que mi fluidez alcance el nivel de mis habilidades técnicas. 📈
+*   **Inglés:** Nivel **B1**. Capaz de manejar documentación técnica y redactar informes. Sigo trabajando a diario para que mi fluidez alcance el nivel de mis habilidades técnicas. 📈
 
 ### 🏆 Progress Tracker
-*   **CyberDefenders Challenges:** [#####..........] 6 / 40 (Focus: Windows Forensics & Network Analysis).
+*   **CyberDefenders Challenges:** [#####..........] 8 / 40 (Focus: Windows Forensics & Network Analysis) 
+* Write-ups oficialmente aceptados en la pagina oficial de CyberDedenders
 *   **Splunk Projects:** Desarrollando dashboards de detección personalizados para ataques en AD.
 *   **Status:** Buscando mi primera oportunidad como **SOC Analyst L1**.
 
 ---
 **El factor humano:** Soy un firme creyente de que el esfuerzo constante vence al talento natural. Cuando no estoy analizando PCAPs o refinando una query de Splunk, probablemente me encuentres optimizando mis `dotfiles` o estudiando nuevas tácticas de post-explotación para saber cómo detectarlas mejor.
 
-📩 *¿Buscas un analista con mentalidad crítica y ganas de aprender? Hablemos!*
+📩 *¿Buscas un analista en formacion con mentalidad crítica y ganas de aprender? Hablemos!*
