@@ -6,7 +6,7 @@ order: 4
 ---
 
 
-**Yoel Tucci** | Blue Teamer & Arch Linux Enthusiast 🐧
+### **Yoel Tucci** | Blue Teamer & Arch Linux Enthusiast 🐧
 
 ### 👤 Quién soy
 Soy un analista de seguridad en formación constante. Mi entorno de trabajo actual es **Arch Linux**, donde gestiono mis flujos de investigación y automatización. Sin embargo, mi base técnica se cimenta en **más de 10 años como usuario de Windows**. 
@@ -27,8 +27,8 @@ Mi objetivo actual es aprender **Splunk**. Creo firmemente que el dominio de **S
 *   **Inglés:** Nivel **B1**. Capaz de manejar documentación técnica y redactar informes. Sigo trabajando a diario para que mi fluidez alcance el nivel de mis habilidades técnicas. 📈
 
 ### 🏆 Progress Tracker
-*   **CyberDefenders Challenges:** [#####..........] 8 / 40 (Focus: Windows Forensics & Network Analysis) 
-* Write-ups oficialmente aceptados en la pagina oficial de CyberDedenders
+*  **CyberDefenders Challenges:** [#####..........] 8 / 40 (Focus: Windows Forensics & Network Analysis) 
+* **Write-ups** oficialmente aceptados en la pagina oficial de CyberDedenders
 *   **Splunk Projects:** Desarrollando dashboards de detección personalizados para ataques en AD.
 *   **Status:** Buscando mi primera oportunidad como **SOC Analyst L1**.
 
